@@ -47,7 +47,7 @@ describe('test_name', function() {
  
     cy.get('#MsgBoxBack > #Msg1 > .MessageBoxMiddle > .MessageBoxButtonSection > #bot1-Msg1').click()
  
-    cy.get('.row > .form-container > #login-form > .form-group > #login-email').type('klawr1@assist1.phcvip.com')
+    cy.get('.row > .form-container > #login-form > .form-group > #login-email').type('klawr2@assist1.phcvip.com')
  
     cy.get('.row > .form-container > #login-form > .form-group > #login-password').type('123456')
  
