@@ -8,7 +8,7 @@ describe('test_name', function() {
  
     cy.get('.row > .form-container > #login-form > .form-group > #login-email').click()
  
-    cy.get('.row > .form-container > #login-form > .form-group > #login-email').type('klawr1@assist1.phcvip.com')
+    cy.get('.row > .form-container > #login-form > .form-group > #login-email').type('klawr2@assist1.phcvip.com')
  
     cy.get('.row > .form-container > #login-form > .form-group > #login-password').type('123456')
  
