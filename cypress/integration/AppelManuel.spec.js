@@ -4,7 +4,7 @@ describe('test_name', function() {
 
       cy.viewport(1881, 984)
 
-      cy.visit(Cypress.env('url'))
+      cy.visit(Cypress.env("http://185.222.61.150:8081/gaya/public/index.html#/login"))
 
       cy.server()
       cy.route('/gaya/api/platforms/info/*').as('getPlatform').its('status').should('eq', 200)
