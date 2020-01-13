@@ -13,7 +13,7 @@ describe('test_name', function() {
     cy.get('.row > .form-container > #login-form > .form-group > #login-password').type('123456')
  
     cy.get('.form-container > #login-form > .row > .pull-left > #ButtonTheme').click()
- cy.wait(10000)
+ cy.wait(5000)
     cy.get('.input-group:nth-child(2) > #keyPadId > .btn-key-pad > .fa-stack > .fa-caret-down').click()
  
     cy.get('.input-group > #keyPadId > #dropdownKeyPad > .buttons-key-pad > .button-key-pad:nth-child(11)').click()
@@ -38,7 +38,7 @@ describe('test_name', function() {
  
     cy.get('.buttons-key-pad > .row > .col-sm-4 > #callOutPhone > .txt-color-gray').click()
  
- cy.wait(10000)
+ cy.wait(5000)
     cy.get('.col-md-2 > .pickup-btn-container > .inline-group > #inCallHangUp > .fa-stack > .fa-phone').click()
  
     cy.get('.right-side-container > #headerMenuProfil > .dropdown > .dropdown-toggle > .name').click()
