@@ -42,7 +42,7 @@ describe('test_name', function() {
 
       cy.get('.buttons-key-pad > .row > .col-sm-4 > #callOutPhone > .txt-color-gray').click()
 
-      cy.wait(3000)
+      cy.wait(5000)
       cy.get('.right-side-container > #headerMenuProfil > .dropdown > .dropdown-toggle > .name').click()
 
       cy.get('#headerMenuProfil > .dropdown > .dropdown-menu > #logout2 > .fa-main-color-line').click()
