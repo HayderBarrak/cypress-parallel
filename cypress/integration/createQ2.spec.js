@@ -11,7 +11,7 @@ describe('test_name', function() {
       cy.wait('@getPlatform')
 
       cy.get('.row > .form-container > #login-form > .form-group > #login-email').click()
-      cy.get('.row > .form-container > #login-form > .form-group > #login-email').type("jire21@homolog.phcvip.com")
+      cy.get('.row > .form-container > #login-form > .form-group > #login-email').type(Cypress.env('login'))
       cy.get('.row > .form-container > #login-form > .form-group > #login-password').type('123456')
       cy.get('.form-container > #login-form > .row > .pull-left > #ButtonTheme').click()
       cy.server()
