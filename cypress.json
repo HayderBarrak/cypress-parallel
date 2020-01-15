@@ -1,1 +1,13 @@
-{}
+{
+  "env": {
+    "url": "http://185.222.61.150:8081/gaya/public/index.html#/login",
+    "login1": "klawr1@homolog.phcvip.com",
+    "login2": "klawr2@homolog.phcvip.com",
+    "postfix":"",
+    "client": "@homolog.phcvip.com",
+    "qualify": 10,
+    "login": ""
+  },
+  "chromeWebSecurity" : false,
+  "requestTimeout" : 30000
+}
