@@ -6,7 +6,8 @@
     "postfix":"",
     "client": "@homolog.phcvip.com",
     "qualify": 10,
-    "login": ""
+    "login": "",
+    "video": false
   },
   "chromeWebSecurity" : false,
   "requestTimeout" : 60000
